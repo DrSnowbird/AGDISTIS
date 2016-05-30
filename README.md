@@ -1,5 +1,18 @@
 #AGDISTIS
 
+### Extension from Official AGDISTIS
+This forked git provides the setup script to automate the test run for AGDISTIS.
+
+- To run
+```bash
+./run-agdistis.sh
+```
+
+- To test (use different Xterm console)
+```bash
+./test-agdistis.sh
+```
+### (inherited from AGDISTIS)
 AGDISTIS - Agnostic Named Entity Disambiguation. This projects aimes at delivering a framework for disambiguating a priori annotated named entities. 
 
 More information about the project can be found <a href="http://aksw.org/projects/AGDISTIS">here</a> and in our <a href="https://github.com/AKSW/AGDISTIS/wiki">Wiki</a>.
