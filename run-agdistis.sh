@@ -17,10 +17,6 @@ INDEX_7Z_ZH_URL="http://139.18.2.164/rusbeck/agdistis/zh/indexdbpedia_zh_2014.7z
 #INDEX_7Z_LIST="$INDEX_7Z_EN_URL $INDEX_7Z_DE_URL $INDEX_7Z_ZH_URL"
 INDEX_7Z_LIST="$INDEX_7Z_EN_URL"
 
-function 7zip_decompress() {
-    echo "            7za x ${1} -o${2}"
-}
-
 ### --- Unzip DBpedia Index Directory ---
 for i in ${INDEX_7Z_LIST}; do
 echo "-----------------------------------"
